@@ -63,7 +63,7 @@ jobs:
 
       
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: mahmouds@ut.com/Dr.Eng@8829484
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2B8E938A011A48B99B99F2394FB615C4 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9782A9028A784FCB8CE726F1E8DD23D9 }}
